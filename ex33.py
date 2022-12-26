@@ -1,6 +1,6 @@
 print("second degree equation's format is a*(x^2)+b*x+c=o")
 
-def first_degree_equation():
+def second_degree_equation():
     a = int(input("please enter a: "))
     b = int(input("please enter b: "))
     c = int(input("please enter c: "))
@@ -12,5 +12,5 @@ def first_degree_equation():
     else :
          print (" the only answer is = " , x1 )
     return x1,x2
-first_degree_equation()   
+second_degree_equation()   
 
